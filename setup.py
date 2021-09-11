@@ -1,7 +1,7 @@
 from setuptools import find_packages, setup
 
 version = open("giants/__version__.py").read().strip('"\n')
-long_description = open("README.md", "r", encoding="utf-8").read()
+long_description = open("docs/index.md", "r", encoding="utf-8").read()
 required = open("requirements.txt", "r", encoding="utf-8").read().strip().split()
 
 setup(
