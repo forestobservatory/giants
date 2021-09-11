@@ -1,0 +1,94 @@
+# project
+site_name: 'giants'
+site_description: 'Basic machine learning optimization support, developed to identify big trees.'
+
+# documentation build
+docs_dir: 'docs'
+site_dir: 'build'
+
+# site info
+repo_name: 'forestobservatory/giants'
+repo_url: 'https://github.com/forestobservatory/giants'
+site_url: 'https://the.forestobservatory.com/giants/'
+
+# social
+extra:
+    social:
+      - icon: 'fontawesome/brands/github'
+        link: 'https://github.com/forestobservatory'
+      - icon: 'fontawesome/brands/twitter'
+        link: 'https://twitter.com/forestobs'
+      - icon: 'material/earth'
+        link: 'https://the.forestobservatory.com/'
+
+# site navigation
+nav:
+    - Home: 'index.md'
+    - User Guide: 'user-guide.md'
+    - Code Documenation:
+      - giants.model: 'module/model.md'
+      - giants.config: 'module/config.md'
+
+# theme
+theme:
+    logo: 'img/giants.svg'
+    icon:
+      repo: 'fontawesome/brands/github'
+    name: 'material'
+    language: 'en'
+    nav_style: dark
+    palette:
+      - media: "(prefers-color-scheme: light)"
+        scheme: 'forestobs-light'
+        toggle:
+          icon: 'material/weather-night'
+          name: 'Go dark'
+      - media: "(prefers-color-scheme: dark)"
+        scheme: 'slate'
+        toggle:
+          icon: 'material/weather-sunny'
+          name: 'Go light'
+    font:
+      text: 'Poppins'
+      code: 'Source Code Pro'
+    favicon: 'img/favicon.png'
+    features:
+      - navigation.top
+
+# extras
+plugins:
+    - search
+    - mkdocstrings
+    - mkdocs-jupyter:
+        include_source: True
+
+extra_css:
+    - https://the.forestobservatory.com/assets/shared/colors.css
+
+# pandoc (https://pandoc.org/MANUAL.html)
+markdown_extensions:
+    - admonition
+    - attr_list
+    - codehilite:
+        guess_lang: false
+    - def_list
+    - footnotes
+    - pymdownx.arithmatex
+    - pymdownx.betterem
+    - pymdownx.caret:
+        insert: false
+    - pymdownx.details
+    - pymdownx.emoji
+    - pymdownx.escapeall:
+        hardbreak: true
+        nbsp: true
+    - pymdownx.magiclink:
+        hide_protocol: true
+        repo_url_shortener: true
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.tasklist:
+        custom_checkbox: true
+    - pymdownx.tilde
+    - toc:
+        permalink: true
