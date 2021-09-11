@@ -1,16 +1,17 @@
 # giants
 
-<img src="img/redwoods.jpg" alt="giant forests"/>
+<img src="https://the.forestobservatory.com/assets/shared/banner-giants.jpg" alt="giant forests"/>
 
 <p align="center">
   <em>Basic machine learning optimization support, developed to identify big trees.</em>
 </p>
 
 ![License](https://img.shields.io/github/license/forestobservatory/giants)
+![Code coverage](https://img.shields.io/codecov/c/github/forestobservatory/giants)
 ![PyPI package](https://img.shields.io/pypi/v/giants)
 ![PyPI downloads](https://img.shields.io/pypi/dm/giants)
-![Last commit](https://img.shields.io/github/last-commit/earth-chris/giants)
-![Lines of code](https://img.shields.io/tokei/lines/github/earth-chris/giants)
+![Last commit](https://img.shields.io/github/last-commit/forestobservatory/giants)
+![Lines of code](https://img.shields.io/tokei/lines/github/forestobservatory/giants)
 ![Forest Observatory](https://img.shields.io/twitter/follow/forestobs)
 
 ---
@@ -35,4 +36,5 @@ pip install giants
 
 ## Developed by
 
-![Earth Chris](https://img.shields.io/twitter/follow/earth_chris)
+![Earth Chris Twitter](https://img.shields.io/twitter/follow/earth_chris)
+![Earth Chris Github](https://img.shields.io/github/followers/earth-chris?style=social)
