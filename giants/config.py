@@ -85,7 +85,7 @@ class ParamGridConfig(object):
         "max_depth": (1, 10, None),
         "min_samples_split": (2, 0.1, 0.01),
     }
-    LinearRegression = {"normalize": (True, False), "fit_intercept": (True, False)}
+    LinearRegression = {"fit_intercept": (True, False)}
     LinearSVC = {
         "C": (1e-2, 1e-1, 1e0, 1e1),
         "loss": ("hinge", "squared_hinge"),
