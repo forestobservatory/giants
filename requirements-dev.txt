@@ -7,4 +7,3 @@ mkdocs-material
 mkdocstrings
 pytest
 pytest-cov
-wheel
