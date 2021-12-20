@@ -2,6 +2,7 @@ name: codecov
 
 on:
   workflow_run:
+    pull_request:
     branches: [ "feature/codecov" ]
     workflows: ["run-pytest"]
     types:
