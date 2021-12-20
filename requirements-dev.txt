@@ -1,0 +1,6 @@
+livereload
+mkdocs-jupyter
+mkdocs-material
+mkdocstrings
+pytest
+pytest-cov
