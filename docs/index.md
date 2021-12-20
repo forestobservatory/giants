@@ -7,12 +7,13 @@
 </p>
 
 ![License](https://img.shields.io/github/license/forestobservatory/giants)
+![Package tests](https://img.shields.io/github/workflow/status/forestobservatory/giants/run-pytest/main)
 ![Code coverage](https://img.shields.io/codecov/c/github/forestobservatory/giants)
 ![PyPI package](https://img.shields.io/pypi/v/giants)
 ![PyPI downloads](https://img.shields.io/pypi/dm/giants)
 ![Last commit](https://img.shields.io/github/last-commit/forestobservatory/giants)
 ![Lines of code](https://img.shields.io/tokei/lines/github/forestobservatory/giants)
-![Forest Observatory](https://img.shields.io/twitter/follow/forestobs)
+![Forest Observatory](https://img.shields.io/twitter/follow/forestobs?style=social)
 
 ---
 
